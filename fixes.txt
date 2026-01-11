@@ -1,0 +1,11 @@
+
+### Desktop ###
+
+# Fix LightDM Login Screen
+Add `active-monitor = 0` to /etc/lightdm/lightdm-gtk-greeter.conf
+
+# Audio quite despite being at max volume
+run `alsamixer` and increase the db loss
+
+# Universal Dark mode not working
+Go to the themes app and click on the settings tab. Under Miscellaneous change the "Dark mode" setting
