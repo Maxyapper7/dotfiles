@@ -4,6 +4,7 @@ discord
 firefox
 fzf
 neovim
+qemu-base
 spotify-launcher
 stow
 tldr
