@@ -2,6 +2,7 @@ cachyos-gaming-applications
 cachyos-gaming-meta
 discord
 firefox
+flameshot
 fzf
 neovim
 qemu-base
