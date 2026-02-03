@@ -24,6 +24,7 @@ zinit cdreplay -q
 
 ### Aliases ###
 alias ls='ls --color'
+alias ff='fastfetch'
 
 ### Keybinds ###
 bindkey -e
