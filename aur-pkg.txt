@@ -1,2 +1,5 @@
+bambustudio-bin
 oh-my-posh
+onlyoffice-bin
 ttf-meslo-nerd
+kanata

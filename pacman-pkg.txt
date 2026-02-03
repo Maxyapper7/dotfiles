@@ -1,4 +1,5 @@
 cachyos-gaming-applications
+blueman
 cachyos-gaming-meta
 discord
 firefox
@@ -12,5 +13,6 @@ tldr
 unzip
 virt-manager
 virt-viewer
+yt-dlp
 zoxide
 zsh
