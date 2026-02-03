@@ -23,7 +23,6 @@ autoload -Uz compinit && compinit
 zinit cdreplay -q
 
 ### Aliases ###
-alias hyprconfig='nvim ~/.config/hypr/hyprland.conf'
 alias ls='ls --color'
 
 ### Keybinds ###
