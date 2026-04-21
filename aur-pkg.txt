@@ -1,5 +1,6 @@
 bambustudio-bin
+kanata
 oh-my-posh
 onlyoffice-bin
 ttf-meslo-nerd
-kanata
+wifiman-desktop

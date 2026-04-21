@@ -24,13 +24,14 @@ zinit cdreplay -q
 
 ### Aliases ###
 alias ls='ls --color'
-alias ff='fastfetch'
+alias neofetch='fastfetch'
 
 ### Keybinds ###
 bindkey -e
 bindkey '^p' history-search-backward
 bindkey '^n' history-search-forward
 bindkey '^[w' kill-region
+bindkey '^[[3~' delete-char
 
 ### History ###
 HISTFILE=~/.zsh_history
@@ -55,3 +56,4 @@ eval "$(fzf --zsh)"
 eval "$(oh-my-posh init zsh --config $HOME/.config/zsh/theme.toml)"
 eval "$(zoxide init --cmd cd zsh)"
 eval "$(dircolors ~/.dir_colors)"
+export PATH=/home/maxallred/.local/bin:$PATH
