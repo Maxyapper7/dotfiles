@@ -2,7 +2,7 @@
 .gitmodules
 README.md 
 install.sh
-fixes.txt
+fixes.md
 pacman-pkg.txt
 aur-pkg.txt
 policies.json
