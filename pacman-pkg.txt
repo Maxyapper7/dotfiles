@@ -1,5 +1,5 @@
-cachyos-gaming-applications
 blueman
+cachyos-gaming-applications
 cachyos-gaming-meta
 discord
 firefox
@@ -7,8 +7,8 @@ flameshot
 fzf
 neovim
 qemu-base
-spotify-launcher
 stow
+thunderbird
 tldr
 unzip
 virt-manager

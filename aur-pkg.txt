@@ -1,4 +1,5 @@
 bambustudio-bin
+feishin-bin
 kanata
 oh-my-posh
 onlyoffice-bin
