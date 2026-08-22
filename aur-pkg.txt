@@ -1,7 +1,10 @@
 bambustudio-bin
+bottles
+ente-auth
 feishin-bin
 kanata
 oh-my-posh
 onlyoffice-bin
 ttf-meslo-nerd
+visual-studio-code-bin
 wifiman-desktop
