@@ -25,6 +25,8 @@ zinit cdreplay -q
 ### Aliases ###
 alias ls='ls --color'
 alias neofetch='fastfetch'
+alias pbcopy='xclip -selection clipboard'
+alias pbpaste='xclip -selection clipboard -o'
 
 ### Keybinds ###
 bindkey -e
@@ -32,6 +34,9 @@ bindkey '^p' history-search-backward
 bindkey '^n' history-search-forward
 bindkey '^[w' kill-region
 bindkey '^[[3~' delete-char
+
+### Kitty SSH Fix ###
+[[ "$TERM" == "xterm-kitty" ]] && alias ssh="TERM=xterm-256color ssh"
 
 ### History ###
 HISTFILE=~/.zsh_history
@@ -57,3 +62,4 @@ eval "$(oh-my-posh init zsh --config $HOME/.config/zsh/theme.toml)"
 eval "$(zoxide init --cmd cd zsh)"
 eval "$(dircolors ~/.dir_colors)"
 export PATH=/home/maxallred/.local/bin:$PATH
+export SSH_AUTH_SOCK=/home/max/.bitwarden-ssh-agent.sock

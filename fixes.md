@@ -20,3 +20,6 @@ Then run `sudo mount -av`
 
 # Kanta not working
 Make sure to set this up: https://github.com/jtroo/kanata/blob/main/docs/setup-linux.md
+
+# Nautilus SMB Share
+To use an SMB share with Nautlus install `gvfs-smb` so run `sudo pacman -S gvfs-smb`.
